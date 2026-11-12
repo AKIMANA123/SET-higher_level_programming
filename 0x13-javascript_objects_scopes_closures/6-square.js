@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 const PreviousSquare = require('./5-square');
 
 class Square extends PreviousSquare {
@@ -13,4 +14,5 @@ class Square extends PreviousSquare {
     }
   }
 }
+
 module.exports = Square;
